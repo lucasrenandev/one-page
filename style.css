@@ -36,6 +36,7 @@ header {
     font-weight: normal;
     font-size: 22px;
 }
+
 .menu {
     display: flex;
     align-items: center;
@@ -216,7 +217,7 @@ header {
     .logo h2 {
         font-size: 18px;
     }
-    
+
     .menu {
         padding: 0;
     }
