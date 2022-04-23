@@ -209,10 +209,6 @@ header {
 /* Responsive */
 
 @media (max-width: 800px) {
-    body {
-        width: 100%;
-    }
-
     header {
         width: 100%;
     }
@@ -255,10 +251,6 @@ header {
 }
 
 @media (max-width: 500px) {
-    body {
-        width: 100%;
-    }
-
     .header {
         width: 100%;
     }
