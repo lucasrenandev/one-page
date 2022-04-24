@@ -261,8 +261,7 @@ header {
     }
 }
 
-@media (max-width: 600px) {
-
+@media (max-width: 500px) {
     .logo h2 {
         font-size: 18px;
     }
@@ -271,10 +270,9 @@ header {
         display: none;
     }
 
-    .main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .main-center {
+        width: 100vw;
+        margin: 0 auto;
     }
 
     .main-text {
@@ -285,19 +283,8 @@ header {
     .main-text-center p {
         font-size: 13px;
     }
-
-    .container-sobre {
-        width: 100%;
-    }
-
     .sobre-text-center {
         margin-top: 20px;
     }
 
-}
-
-@media (max-width: 400px) {
-    body {
-        width: 100%;
-    }
 }
