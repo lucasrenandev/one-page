@@ -221,7 +221,7 @@ header {
     }
 
     .menu {
-        padding-right: 30px;
+        padding: 0px;
     }
 
     .button-menu {
@@ -234,6 +234,8 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     .main-text-center {
@@ -266,25 +268,31 @@ header {
         font-size: 18px;
     }
 
+    .menu {
+        display: flex;
+        gap: 10px;
+    }
+
     .button-menu {
         display: none;
     }
 
     .main-center {
-        width: 100vw;
-        margin: 0 auto;
-    }
-
-    .main-text {
-        width: 500px;
-        height: auto;
+        width: 100%;
     }
 
     .main-text-center p {
         font-size: 13px;
     }
+
     .sobre-text-center {
         margin-top: 20px;
     }
 
+}
+
+@media (max-width: 400px) {
+    .menu {
+        display: none;
+    }
 }
