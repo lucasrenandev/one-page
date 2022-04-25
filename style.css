@@ -148,12 +148,12 @@ header {
 
 .main-text-center h2 {
     color: #124265;
-    font-size: 17px;
+    font-size: 18px;
     margin: 10px 0;
 }
 
 .main-text-center p {
-    font-size: 12px;
+    font-size: 13px;
     color: gray;
     line-height: 25px;
     text-align: justify;
@@ -180,7 +180,6 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
     
 }
 
@@ -206,8 +205,7 @@ header {
 .sobre-text-center p {
     color: #444444;
     font-size: 16px;
-    padding: 0px 4%;
-    text-align: justify;
+    text-align: center;
 }
 
 /* Responsive */
