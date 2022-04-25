@@ -13,7 +13,7 @@ html, body {
     overflow-x: hidden;
 }
 
-/* Header*/
+/* Header + menu*/
 
 header {
     height: 80px;
@@ -164,7 +164,7 @@ header {
     font-size: 23px;
 }
 
-/* Section --> Sobre */
+/* Section Sobre */
 
 .section-sobre {
     margin: 0 auto;
@@ -264,7 +264,7 @@ header {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 580px) {
     .logo h2 {
         font-size: 18px;
     }
@@ -291,7 +291,7 @@ header {
 
 }
 
-@media (max-width: 300px) {
+@media (max-width: 390px) {
     .menu {
         display: none;
     }
