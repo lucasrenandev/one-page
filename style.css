@@ -164,9 +164,9 @@ header {
     font-size: 23px;
 }
 
-/* Section --> Container Sobre */
+/* Section --> Sobre */
 
-.container-sobre {
+.section-sobre {
     margin: 0 auto;
     padding: 80px 0;
     display: flex;
