@@ -290,9 +290,3 @@ header {
     }
 
 }
-
-@media (max-width: 390px) {
-    .menu {
-        display: none;
-    }
-}
