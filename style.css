@@ -252,10 +252,12 @@ header {
 
     .main-text-center p {
         font-size: 13px;
+        text-align: ;
     }
 
     .sobre-text p {
         padding: 12px;
+        text-align: center;
     }
 }
 
